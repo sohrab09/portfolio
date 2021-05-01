@@ -16,7 +16,7 @@ const About = () => {
           <Row className="pt-3 pb-5 align-items-center">
             <Col xs={12} md={6}>
               <Row className=" align-items-start p-2 my-details rounded">
-                Hi there! I am <strong>&nbsp;Mohammad Sohrab Hossain</strong>
+                <h4>Hi there! I am <strong>&nbsp;Mohammad Sohrab Hossain</strong></h4>
                 <br />A passionate programmer. born and brought up in Bangladesh. I am a Full Stack Web Developer with React.js, Express.js, Node.js, and MongoDb as my tech stack.
                 <br />
                 In 2021, I successfully completed my Engineering with specialization in 'Computer Science and Engineering'.

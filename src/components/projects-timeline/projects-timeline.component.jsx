@@ -28,11 +28,11 @@ import "./projects-timeline.styles.css";
 const TimeLine = () => {
   return (
     <div id="projects">
-      <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
+      <h1 className="pt-3 text-center pb-3">PROJECTS</h1>
       <Timeline>
         <Events>
-        {/* Project: Chitro Golpo */}
-        <ImageEvent
+          {/* Project: Chitro Golpo */}
+          <ImageEvent
             date="17/04/2021"
             className="text-center"
             text="Chitro Golpo"
@@ -53,13 +53,16 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> This is a Todo App created with React and Material UI that keeps a track of your Todos
+                        <strong>Name:</strong> Chitro Golpo
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Keeps track of your Todos</li>
-                          <li>Powered by React and Material UI</li>
-                          <li>Respoisive Design</li>
+                          <li>Wedding photography start-up project.</li>
+                          <li>MERN stack project.</li>
+                          <li>The customer will be able to receive any service and view all his data accordingly.</li>
+                          <li>Admin can add and delete any services.</li>
+                          <li>Firebase authentication has been used in this project. If the user wants to receive any service through which he has to log in.</li>
+                          <li>Demo stripe has been implemented in this project. The price of any service can be taken from the user.</li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
@@ -100,15 +103,37 @@ const TimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_MATERIALUI}
-                                alt="Material-UI"
+                                src={L_NODE_JS}
+                                alt="Node"
                                 rounded
                                 className="image-style1 m-1"
                               ></Image>{" "}
-                              Material-UI
+                              Node
                             </span>
                           </li>
-                          
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_EXPRESS}
+                                alt="Express"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Express
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_MONGODB}
+                                alt="MongoDB"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              MongoDB
+                            </span>
+                          </li>
+
                         </ul>
                       </Card.Body>
                     </Accordion.Collapse>

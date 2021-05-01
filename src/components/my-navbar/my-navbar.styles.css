@@ -1,10 +1,11 @@
 .logo {
-    width: 25%;
+    width: 30%;
+    margin-right: 15px;
   }
   
   .nav-theme {
-    background-color: #101018f8;
-    font-size: 20px;
+    background-color: #1010181f;
+    font-size: 25px;
   }
   
   .animate-navbar {

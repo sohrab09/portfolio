@@ -1,0 +1,22 @@
+.submitBox{
+    width: 90%;
+  }
+   
+  .submitBox input, textarea{ 
+      width: 100%;
+      border-radius: 10px;
+      padding: 5px 0px 5px 5px;
+      background-color: rgba(247, 199, 199, 0.1);
+      border: none;
+      color: rgb(0, 0, 0);
+  }
+   
+  .submitBox textarea{
+    height: 20vh;
+  }
+   
+  .formBox{
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 30px ;
+    border-radius: 10px;
+  }
