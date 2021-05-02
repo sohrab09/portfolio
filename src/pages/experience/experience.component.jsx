@@ -23,11 +23,11 @@ const Experience = () => {
                   <Card.Text className="text-center style">
                     <strong className="body-title-style ">Unisource Technology</strong>
                     <br />
-                    <strong>Working Procedure:</strong> Software Support, Installation, ERP Management, Client Support.
+                    <strong>Work Responsibility:</strong> Software Support, Installation, ERP Management, Client Support.
                     <br />
                     <strong>Duration:</strong> April 2018 - August 2020
                     <br/>
-                    <strong> Description </strong>
+                    <strong>Company Description </strong>
                     <ul className="text-left">
                       <li><strong>Developed &amp; enhanced</strong> multiple features with customizability option across web application.</li>
                       <li><strong>Developed</strong> automation system to create SQL bulk query scripts that 
