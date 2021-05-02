@@ -14,6 +14,7 @@ import Slide from "react-reveal/Slide";
 import ContactForm from "./pages/contact-form/contact-form.component";
 import { Parallax } from "react-parallax";
 import FooterPanel from './components/footer/footer.component';
+import Blog from './pages/blog/blog.component';
 function App() {
   return (
     <div className="App">
@@ -39,7 +40,7 @@ function App() {
       />
       <MyCarousal />
       <MyTitleMessage />
-      <MyNavbar/>
+      <MyNavbar />
       <div>
         <Parallax
           blur={{ min: -30, max: 30 }}
@@ -51,6 +52,22 @@ function App() {
             <Container className="container-box rounded">
               <Fade duration={500}>
                 <About />
+              </Fade>
+            </Container>
+          </div>
+        </Parallax>
+      </div>
+      <div>
+        <Parallax
+          blur={{ min: -30, max: 30 }}
+          bgImage={require("./assets/img/parallex/background.webp")}
+          bgImageAlt=""
+          strength={-200}
+        >
+          <div>
+            <Container className="container-box rounded">
+              <Fade duration={500}>
+                <Blog/>
               </Fade>
             </Container>
           </div>
@@ -70,19 +87,19 @@ function App() {
           </Fade>
         </Container>
         <Container className="container-box rounded">
-        <Slide bottom duration={500}>
-          <hr />
-          <TimeLine />
-        </Slide>
-      </Container>
-      <Container className="container-box rounded">
-        <Fade duration={500}>
-          <hr />
-          <ContactForm />
-        </Fade>
-      </Container>
-      <hr />
-      <FooterPanel/>
+          <Slide bottom duration={500}>
+            <hr />
+            <TimeLine />
+          </Slide>
+        </Container>
+        <Container className="container-box rounded">
+          <Fade duration={500}>
+            <hr />
+            <ContactForm />
+          </Fade>
+        </Container>
+        <hr />
+        <FooterPanel />
       </div>
     </div>
   );
