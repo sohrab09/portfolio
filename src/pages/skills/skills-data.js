@@ -24,7 +24,6 @@ import L_FIREBASE from "../../assets/img/skills/firebase.svg";
 import L_GITHUB_PAGES from "../../assets/img/skills/github.svg";
 import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
 import L_TYPESCRIPT from "../../assets/img/skills/typescript.svg";
-import L_PYTHON from "../../assets/img/skills/python.svg";
 
 export const skills = {
   frontend: [
@@ -149,12 +148,6 @@ export const skills = {
       imgAltText: "TypeScript",
       imgSrc: L_TYPESCRIPT,
       skillName: "TypeScript",
-    },
-    {
-      link: "https://www.python.org/",
-      imgAltText: "Python",
-      imgSrc: L_PYTHON,
-      skillName: "Python",
     }
   ],
   databases: [

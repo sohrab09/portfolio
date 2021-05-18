@@ -3,7 +3,9 @@ import { Timeline, Events, UrlButton, ImageEvent } from "@merc/react-timeline";
 
 // projects
 import L_CHITROGOLPO from "../../assets/img/projects/chitroGolpo.png";
+import L_COMPUTERVILLA from "../../assets/img/projects/computerVilla.png";
 import L_PORTFOLIO from "../../assets/img/projects/portfolio.png";
+import L_PINMATCHER from "../../assets/img/projects/pinMatcher.png";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 
@@ -166,13 +168,13 @@ const TimeLine = () => {
                   SEE LIVE
                 </UrlButton>
                 <UrlButton
-                  href="https://github.com/Porgramming-Hero-web-course/complete-website-server-sohrab09"
+                  href="https://github.com/sohrab09/chitroGolpo-server"
                   target="_blank"
                 >
                   SERVER SIDE SOURCE CODE
                 </UrlButton>
                 <UrlButton
-                  href="https://github.com/Porgramming-Hero-web-course/complete-website-client-sohrab09"
+                  href="https://github.com/sohrab09/chitroGolpo-client"
                   target="_blank"
                 >
                   CLIENT SIDE SOURCE CODE
@@ -273,13 +275,13 @@ const TimeLine = () => {
               </div>
             </div>
           </ImageEvent>
-          {/* Project: Chitro Golpo */}
+          {/* Project: Computer Villa */}
           <ImageEvent
-            date="17/04/2021"
+            date="02/04/2021"
             className="text-center"
-            text="Chitro Golpo"
-            src={L_CHITROGOLPO}
-            alt="Chitro Golpo"
+            text="Computer Villa"
+            src={L_COMPUTERVILLA}
+            alt="Computer Villa"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
@@ -295,16 +297,15 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Name:</strong> Chitro Golpo
+                        <strong>Name:</strong> Computer Villa
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Wedding photography start-up project.</li>
                           <li>MERN stack project.</li>
-                          <li>The customer will be able to receive any service and view all his data accordingly.</li>
-                          <li>Admin can add and delete any services.</li>
-                          <li>Firebase authentication has been used in this project. If the user wants to receive any service through which he has to log in.</li>
-                          <li>Demo stripe has been implemented in this project. The price of any service can be taken from the user.</li>
+                          <li>Users can buy any product they want.</li>
+                          <li>Firebase's authentication has been used.</li>
+                          <li>Admin can add or delete any product.</li>
+                          <li>The user will be able to see the list of each product he has ordered.</li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
@@ -405,19 +406,19 @@ const TimeLine = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://chitrogolpo-97e1a.web.app/"
+                  href="https://computer-villa-b735c.web.app/"
                   target="_blank"
                 >
                   SEE LIVE
                 </UrlButton>
                 <UrlButton
-                  href="https://github.com/Porgramming-Hero-web-course/complete-website-server-sohrab09"
+                  href="https://github.com/sohrab09/computer-villa-server"
                   target="_blank"
                 >
                   SERVER SIDE SOURCE CODE
                 </UrlButton>
                 <UrlButton
-                  href="https://github.com/Porgramming-Hero-web-course/complete-website-client-sohrab09"
+                  href="https://github.com/sohrab09/computer-villa-client"
                   target="_blank"
                 >
                   CLIENT SIDE SOURCE CODE
@@ -425,13 +426,13 @@ const TimeLine = () => {
               </div>
             </div>
           </ImageEvent>
-          {/* Portfolio  */}
+          {/* Pin Matcher  */}
           <ImageEvent
-            date="01/05/2021"
+            date="05/02/2021"
             className="text-center"
-            text="Portfolio"
-            src={L_PORTFOLIO}
-            alt="Portfolio"
+            text="Pin Matcher"
+            src={L_PINMATCHER}
+            alt="Pin Matcher"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
@@ -451,8 +452,8 @@ const TimeLine = () => {
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Personal Portfolio</li>
-                          <li>Styled with  React Bootstrap, React Js</li>
+                          <li>PIN Code Matcher</li>
+                          <li>html, css, vanilla js</li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
@@ -482,17 +483,6 @@ const TimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_REACT}
-                                alt="React"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              React
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
                                 src={L_GIT}
                                 alt="Git"
                                 rounded
@@ -509,16 +499,16 @@ const TimeLine = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://github.com/sohrab09/portfolio"
-                  target="_blank"
-                >
-                  SOURCE CODE
-                </UrlButton>
-                <UrlButton
-                  href=""
+                  href="https://sohrab09.github.io/pin-matcher/"
                   target="_blank"
                 >
                   SEE LIVE
+                </UrlButton>
+                <UrlButton
+                  href="https://github.com/sohrab09/pin-matcher"
+                  target="_blank"
+                >
+                  SOURCE CODE
                 </UrlButton>
               </div>
             </div>
