@@ -3,6 +3,7 @@ import { Timeline, Events, UrlButton, ImageEvent } from "@merc/react-timeline";
 
 // projects
 import L_CHITROGOLPO from "../../assets/img/projects/chitroGolpo.png";
+import L_BIGBAZAR from "../../assets/img/projects/bigBazar.png";
 import L_COMPUTERVILLA from "../../assets/img/projects/computerVilla.png";
 import L_PORTFOLIO from "../../assets/img/projects/portfolio.png";
 import L_PINMATCHER from "../../assets/img/projects/pinMatcher.png";
@@ -20,6 +21,7 @@ import L_HTML5 from "../../assets/img/skills/html-5.svg";
 import L_CSS3 from "../../assets/img/skills/css3.svg";
 import L_BOOTSTRAP4 from "../../assets/img/skills/bootstrap-4.svg";
 import L_GIT from "../../assets/img/skills/github-api.svg";
+import L_REDUX from "../../assets/img/skills/redux.svg";
 
 
 import "./projects-timeline.styles.css";
@@ -30,6 +32,117 @@ const TimeLine = () => {
       <h1 className="pt-3 text-center pb-3">PROJECTS</h1>
       <Timeline>
         <Events>
+          {/* Big Bazar  */}
+          <ImageEvent
+            date="31/05/2021"
+            className="text-center"
+            text="Big Bazar"
+            src={L_BIGBAZAR}
+            alt="Big Bazar"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> This is a Redux Based E-commerce website.
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>This is a Redux based e-commerce website, where I’m using Redux Store management.</li>
+                          <li>User can add product, user are able to See Order in the cart option, cart Details.</li>
+                          <li>Manually product quantity manage. Delete Item from cart. Product Details.</li>
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                        <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_HTML5}
+                                alt="Express"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              HTML5
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_CSS3}
+                                alt="CSS3"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              CSS3
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT}
+                                alt="React"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              React
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REDUX}
+                                alt="Redux"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Redux
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_GIT}
+                                alt="Git"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              GIT
+                            </span>
+                          </li>
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton
+                  href="https://big-bazar.netlify.app/"
+                  target="_blank"
+                >
+                  SEE LIVE
+                </UrlButton>
+                <UrlButton
+                  href="https://github.com/sohrab09/big-bazar"
+                  target="_blank"
+                >
+                  GITHUB SOURCE CODE
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
+
           {/* Project: Chitro Golpo */}
           <ImageEvent
             date="17/04/2021"
